@@ -1,0 +1,10 @@
+name: Challenge
+description: This is the completed theme and modules for Elevated Third
+type: theme
+core: 8.x
+libraries:
+  - challenge/global-css
+  - challenge/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
