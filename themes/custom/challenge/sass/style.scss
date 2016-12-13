@@ -47,10 +47,25 @@ body{
   position: absolute;
   z-index: -1;
 }
-.nav{
-
+.nav ul{
+  list-style-type: none;
 }
-
+.navbar-bottom{
+  float: right;
+  margin-top: 5%;
+  // padding-bottom: 5%;
+  // margin-bottom: 5%;
+  margin-right: 12%;
+  height: 4vh;
+  width: 33vw;
+  overflow: hidden;
+}
+.nav li{
+  display: inline;
+  font-family: $thick-font;
+  padding: 2px 5px;
+  font-size: 16pt;
+}
 .layout-container{
   width: 100vw;
 }
@@ -60,7 +75,38 @@ body{
 }
 .row{
   width: 100vw;
-  margin: 3%;
+}
+.banner{
+  height: 75vh;
+  width: 100vw;
+  margin: 1vh 0 0 0;
+  padding: 1% 0 0 0;
+  display: inline-block;
+}
+.banner-text{
+  display: inline-block;
+  width: 33vw;
+  height: 75vh;
+  margin-left: 5%;
+}
+#eve{
+  color: $dr-color;
+  font-size: 60pt;
+  margin-top: 20%;
+  font-family: $thick-font;
+}
+#eve-sub{
+  color: $blackish;
+  font-size: 28pt;
+  font-family: $thin-font;
+}
+.banner-image{
+  height: 75vh;
+  width: 60vw;
+  background: url("../images/header_pic.png");
+  background-repeat: no-repeat;
+  float: right;
+  display: inline-block;
 }
 .upcom{
   background: url("../images/events_rect.png");
@@ -89,8 +135,10 @@ body{
   font-family: $thick-font;
   overflow: hidden;
 }
+
 #container-1{
   background: url("../images/apr_11.png");
+  margin-left: 5%;
 }
 #container-2{
   background-image: url("../images/may_4.png");
@@ -100,6 +148,7 @@ body{
 }
 #container-4{
   background-image: url("../images/jun_29.png");
+  margin-left: 5%;
 }
 #container-5{
   background-image: url("../images/aug_2.png");

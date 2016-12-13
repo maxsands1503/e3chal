@@ -1,27 +1,59 @@
-<!-- 
-<div class="layout-container">
-  <div class="navbar-top">
-    <div class="header">
 
-    </div>
-    <div class="logo">
-      <div class="">
-        <h1>Logo</h1>
+  <div class="row">
+    <div class="nav">
+      <div class="navbar-top">
+        <div class="header">
+
+        </div>
+        <div class="logo">
+          <div class="">
+            <h1>Logo</h1>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-bottom">
+        <ul>
+          <li>
+            ABOUT US
+          </li>
+          <li>
+            THE MUSIC
+          </li>
+          <li>
+            PROGRAMS
+          </li>
+          <li>
+            EVENTS
+          </li>
+          <li>
+            SUPPORT US
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-    <div class="nav">
-
-    </div>
-  <main role="main">
     <div class="row">
+      <div class="banner">
+        <div class="banner-text">
+          <h1 id="eve">EVENTS</h1>
+          <p id="eve-sub">
+            Join us at any of our public events to experience the impact of Youth on Record firsthand.
+          </p>
+        </div>
+        <div class="banner-image">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="upcom">
       <div class="upcom">
         <div id="evup">
           <h1>UPCOMING EVENTS</h1>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row events-con">
       <div class="container" id="container-1">
         <div class="dr">
           <p class="drd">April</p>
@@ -95,7 +127,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row events-con">
       <div class="container" id="container-4">
         <div class="dr">
           <p class="drd">JUN</p>
@@ -163,36 +195,3 @@
         </div>
       </div>
     </div>
-  </main>
-</div> -->
-
-
-<header class="main-header" role="banner">
-    <div class="container">
-        {{ page.header }}
-    </div>
-</header>
-
-<div class="container">
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar }}
-      </aside>
-    {% endif %}
-
-  </main>
-
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-
-</div>{# /.layout-container #}
