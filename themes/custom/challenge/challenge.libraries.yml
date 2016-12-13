@@ -1,4 +1,8 @@
 global-css:
+  fonts:
+  license:
+    name: Google Fonts
+    url: https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans
   css:
     theme:
       css/style.css: {}
@@ -7,4 +11,4 @@ global-js:
   js:
     js/main.js: {}
   dependencies:
-    - core/jquery         
+    - core/jquery
