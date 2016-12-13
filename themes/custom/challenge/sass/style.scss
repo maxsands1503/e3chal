@@ -18,6 +18,39 @@ $pink: #f41361;
 body{
   background-color: white;
 }
+.navbar-top{
+  display: inline-block;
+  height: 6vh;
+}
+.logo{
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  background: url("../images/logo.png");
+  display: inline-block;
+  margin-left: 5%;
+  float: left;
+  text-align: center;
+}
+.logo h1{
+  color: white;
+  font-family: $thick-font;
+  font-size: 30pt;
+  margin-top: 20px;
+
+}
+.header{
+  height: 5vh;
+  background: url("../images/nav_rect.png");
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+}
+.nav{
+
+}
+
 .layout-container{
   width: 100vw;
 }
